@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang = "en">
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> CS380 Homework 1 </title>
+        <style>
+            * {
+              box-sizing: border-box;
+              background-color: lightblue;
+              padding: 2px;
+              margin: 0;
+            }
+            
+            body {
+              font-family: cursive;
+              background: #f1f1f1;
+            }
+            
+            /* Header*/
+            .header {
+              padding: 20px;
+              text-align: center;
+              background: lightblue;
+              height: auto;
+
+            }
+            
+            .trip {
+              padding: 5px;
+              background: lightblue;
+            }
+
+            .header h1 {
+              font-size: 60px;
+              color:black;
+              text-align: center;
+              font-family: cursive;
+            }
+
+            .trip h2 {
+              font-size: 20px;
+              color:black;
+              font-family: cursive;
+              text-align: center;
+            }
+
+            .trip h3 {
+              font-size: 20px;
+              color:black;
+              font-family: cursive;
+              text-align: center;
+            }
+            
+            section.cities {
+                height: 520px;
+                margin: 0;
+            }
+            
+            .pictures {
+                width: 70%;
+                float:left;
+            }
+            
+            .text {
+                position: relative;
+                width: 30%;
+                float: right;
+            }
+            
+            section.comparison.chart {
+               
+                border-color: black;
+                margin: 0;
+                text-align: center;
+                padding:30px;
+            }
+            
+            table {
+                font-family: cursive;
+                border-collapse: collapse;
+                width: 100%;
+                text-align: center;
+                height: 85%;
+                border: 3px solid black;
+            }
+
+            td, th {
+                border: 1px solid black;
+                text-align: center;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {
+                background-color: darkgray;
+            }
+            
+            section.about.the.author {
+                text-align: center;
+                padding: 30px;
+            }
+
+            section.about.the.author p {
+                text-align: left;
+                padding: 30px;
+            }
+            
+            sup {
+                vertical-align: super;
+                font-size: smaller;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        <div class = "header">
+            <h1>
+                Selina's Travel
+            </h1>
+        </div>
+
+        <div class = "trip">
+            <h2>
+                The Most Popular Trip
+            </h2>
+            <h3>
+                Portland - Seattle - Vancouver
+            </h3>
+        </div>
+        
+        <section class = "cities" id = "Vancouvor">
+            <div class = "pictures">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Concord_Pacific_Master_Plan_Area.jpg" width = 98% height="500">
+            </div>
+            <div class = "text">
+                <a href="/Destinations/Vancouver.html">Vancouver</a>
+                <p>
+                    Vancouver is the third largest metropolitan city in Canada with over 600,000 people living in the city and over
+                     2 million people residing in the entire Greater Vancouver area. Its diverse culture, lively nightlife, 
+                     intriguing attractions, and delectable dining encourages millions of people to visit every year
+                </p>
+            </div>
+        </section>
+        
+        <section class = "cities" id = "Seattle">
+            <div class = "pictures">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/SeattleQueenAnneSeptember2021.jpg" width = 98% height="500">
+            </div>
+            <div class = "text">
+                <a href="/Destinations/Seattle.html">Seattle</a>
+                <p>
+                    Located on the eastern shore of Puget Sound, Seattle is the largest city in the state of Washington. 
+                    Today Seattle has become one of the hottest locations in the country, a mecca for the computer 
+                    software industry and a cultural trendsetter that originated the grunge rock of the early
+                     1990s and the coffee craze that has swept across the United States.
+                </p>
+            </div>
+        </section>
+        
+        <section class = "cities" id = "Portland">
+            <div class = "pictures">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Tilikum_Crossing_with_streetcar_and_MAX_train_in_2016.jpg" width = 98% height="500">
+            </div>
+            <div class = "text">
+                <a href="/Destinations/Portland.html">Portland</a>
+                <p>
+                    Portland, Oregon's largest city, sits on the Columbia and Willamette rivers, 
+                    in the shadow of snow-capped Mount Hood. It's known for its parks, bridges 
+                    and bicycle paths, as well as for its eco-friendliness and its microbreweries 
+                    and coffeehouses. Iconic Washington Park encompasses sites from the formal 
+                    Japanese Garden to Oregon Zoo and its railway. 
+                    The city hosts thriving art, theater and music scenes.
+                </p>
+        </section>
+        
+        <section class = "comparison chart">
+            <h2> Comparison Chart</h2>
+            <table>
+                <tr>
+                  <th>Fact</th>
+                  <th>Vancouver</th>
+                  <th>Seattle</th>
+                  <th>Portland</th>
+                </tr>
+                <tr>
+                  <td>Best Travel Time</td>
+                  <td>May to September</td>
+                  <td>April to October</td>
+                  <td>Match to October</td>
+                </tr>
+                <tr>
+                  <td>Average Temperature</td>
+                  <td>71.8F</td>
+                  <td>73.6F</td>
+                  <td>75.2F</td>
+                </tr>
+                <tr>
+                    <td>Population</td>
+                    <td>697,266</td>
+                    <td>737,015</td>
+                    <td>652,503</td>
+                </tr>
+                <tr>
+                  <td>Area</td>
+                  <td>115.18 km<sup>2</sup></td>
+                  <td>367.97 km<sup>2</sup></td>
+                  <td>375.50 km<sup>2</sup></td>
+                </tr>
+                <tr>
+                  <td>Medium Family Income</td>
+                  <td>$95,327 in 2019</td>
+                  <td>$112,094 in 2019</td>
+                  <td>$95,851 in 2019</td>
+                </tr>
+              </table>
+        
+        </section>
+        
+        <section class = "about the author">
+            <h2>About the Author</h2>
+                <p>
+                Hello, my name is Wenhuan Tan and I go by Selina. I am a senior CS major student in Bellevue College 
+                and coding is my biggest hobby. Other than coding, I also like playing Ping Pang, dance, photography. 
+                I think coding is one of the most magical tools that I have ever known. I felt that I jumped into 
+                Harry Potter's magic world after I started to learn coding and programming. The codes are like the 
+                incantations that help us build software programs and projects, which is full of magic and power. I 
+                have been living in Seattle for more than 8 years. Seattle, Portland, and Vancouver are 3 cities that
+                have similar climate and each of them has its unique features and attractions. I have been travelling 
+                to these 3 cities many times and I want to recommend them to everyone. I believe all of you will enjoy
+                your trips.
+                </p>
+        </section>
+    </body>
+</html>
